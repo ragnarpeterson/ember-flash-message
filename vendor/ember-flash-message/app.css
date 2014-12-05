@@ -1,0 +1,30 @@
+.flash {
+  z-index: 10000;
+  position: fixed;
+  font-size: 18px;
+  line-height: 18px;
+  padding: 12px;
+  bottom: -42px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  opacity: .85;
+  transition: bottom .3s linear;
+}
+
+.flash.visible {
+  bottom: 0;
+  transition: bottom .3s linear;
+}
+
+.flash.success {
+  background-color: green;
+}
+
+.flash.failure {
+  background-color: red;
+}
