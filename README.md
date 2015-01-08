@@ -4,7 +4,10 @@ Super simple flash messages for your Ember app.
 
 ## Installation
 
-* `npm install --save ember-flash-message`
+```bash
+# From within your ember-cli project
+ember install:addon ember-flash-message
+```
 
 ## Usage
 
